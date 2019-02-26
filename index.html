@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+</head>
+
+<body>
+    <div class="main-wrap">
+        <div class="side-bar" id="sidebar">
+            <div class="logo">
+                <img width="150px" src="images/logo.png" alt="">
+                <div class="d-block-md d-none close-sidebar-icon" onclick="closeSidebar()">
+                    <i class="fa fa-times"></i>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="menu--item" onclick="goTab(this, event, 'aboutUs')">
+                    <div class="df">
+                        About Us
+                    </div>
+                </div>
+                <div class="menu--item" onclick="goTab(this, event, 'aboutKollel')">
+                    <div class="df">
+                        About The Kollel
+                    </div>
+                </div>
+                <div class="menu--item" onclick="goTab(this, event, 'aboutShul')">
+                    <div class="df">
+                        About The Shul
+                    </div>
+                </div>
+                <div class="menu--item" onclick="goTab(this, event, 'aboutHuruah')">
+                    <div class="df">
+                        About The Beis Huruah
+                    </div>
+                </div>
+                <div class="menu--item" onclick="goTab(this, event, 'donate')">
+                    <div class="df">
+                        Donate
+                    </div>
+                </div>
+                <div class="menu--item" onclick="goTab(this, event, 'part6')">
+                    <div class="df">
+                        Weekly torahs
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-sidebar" id="bgSidebar" onclick="closeSidebar()"></div>
+        <div class="main">
+            <div class="header" id="navBar">
+                <div class="d-flex-md d-none menu-icon" onclick="openSidebar()">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <img class="logo-nav" src="images/logo.png" alt="">
+                <div class="head-nav d-none-md">
+                    <div class="head-nav--item" onclick="goTab(this, event, 'aboutUs')">
+                        About Us
+                    </div>
+                    <div class="head-nav--item" onclick="goTab(this, event, 'aboutKollel')">
+                        About The Kollel
+                    </div>
+                    <div class="head-nav--item" onclick="goTab(this, event, 'aboutShul')">
+                        About The Shul
+                    </div>
+                    <div class="head-nav--item" onclick="goTab(this, event, 'aboutHuruah')">
+                        About The Beis Huruah
+                    </div>
+                    <div class="head-nav--item" onclick="goTab(this, event, 'donate')">
+                        Donate
+                    </div>
+                    <div class="head-nav--item" onclick="goTab(this, event, 'weeklyTorahs')">
+                        Weekly torahs
+                    </div>
+                </div>
+            </div>
+            <div class="content head">
+                <div class="this_week_torah">
+                    <h3>This Weeks Torah</h3>
+                    <i class="fas fa-download"></i>
+                    <div class="archived">
+                        <p>Archived Torahs</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content about" id="aboutUs">
+                <div class="about_us">
+                    <div class="aboutUs left_top_sign">
+                        <img src="images/abstract.png" alt="abstract">
+                        <h2>About us</h2>
+                    </div>
+                    <div class="about__content">
+                        <h1>Tosh Monsey</h1>
+                        <div class="content__top">
+                            <div class="cont_wrapper">
+                                <div class="cont_img"></div>
+                                <div class="about__text">
+                            </div>
+                            </div>
+                            <div class="square">
+                            </div>
+                        </div>
+                        <div class="content__bottom">
+                            <div class="square bottom">
+                            </div>
+                            <div class="cont_wrapper bottom">
+                                <div class="about__text"></div>
+                                <div class="bottom__img"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content " id="aboutKollel">
+                2
+                <section class="center slider">
+                    <div>
+                        <img src="http://placehold.it/350x300?text=1">
+                    </div>
+                    <div>
+                        <img src="http://placehold.it/350x300?text=2">
+                    </div>
+                    <div>
+                        <img src="http://placehold.it/350x300?text=3">
+                    </div>
+                    <div>
+                        <img src="http://placehold.it/350x300?text=4">
+                    </div>
+                    <div>
+                        <img src="http://placehold.it/350x300?text=5">
+                    </div>
+                    <div>
+                        <img src="http://placehold.it/350x300?text=6">
+                    </div>
+                    <div>
+                        <img src="http://placehold.it/350x300?text=7">
+                    </div>
+                    <div>
+                        <img src="http://placehold.it/350x300?text=8">
+                    </div>
+                    <div>
+                        <img src="http://placehold.it/350x300?text=9">
+                    </div>
+                </section>
+            </div>
+            <div class="content" id="aboutShul">
+                3
+            </div>
+            <div class="content" id="aboutHuruah">
+                4
+            </div>
+            <div class="content" id="donate">
+                5
+            </div>
+            <div class="content" id="weeklyTorahs">
+                6
+            </div>
+        </div>
+    </div>
+
+    <script>
+        window.addEventListener('scroll', resizeHeaderOnScroll)
+        console.log(window, 'window');
+
+        function resizeHeaderOnScroll() {
+            window.onscroll = function () {
+                if (window.scrollY > 150) {
+                    document.getElementById("navBar").classList.add("onscroll");
+                } else {
+                    document.getElementById("navBar").classList.remove("onscroll")
+                }
+                console.log(window.scrollY, 'window.scrollY');
+            }
+        }
+        function openSidebar() {
+            document.getElementsByTagName("body")[0].style.overflow = "hidden";
+            window.removeEventListener('scroll', resizeHeaderOnScroll)
+            document.getElementById("sidebar").classList.toggle('show');
+            document.getElementById("bgSidebar").classList.toggle('show');
+        }
+        function closeSidebar() {
+            document.getElementsByTagName("body")[0].style.overflow = "auto";
+            window.addEventListener('scroll', resizeHeaderOnScroll)
+            document.getElementById("sidebar").classList.remove('show');
+            document.getElementById("bgSidebar").classList.remove('show');
+        }
+
+        function goTab(element, evt, tabName) {
+            var elmnt = document.getElementById(tabName);
+
+            setTimeout(() => {
+                this.closeSidebar();
+                elmnt.scrollIntoView();
+            }, 300);
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+        $(document).on('ready', function () {
+
+            $(".center").slick({
+                dots: true,
+                infinite: true,
+                centerMode: true,
+                slidesToShow: 5,
+                slidesToScroll: 3
+            });
+            $(".variable").slick({
+                dots: true,
+                infinite: true,
+                variableWidth: true
+            });
+            $(".lazy").slick({
+                lazyLoad: 'ondemand', // ondemand progressive anticipated
+                infinite: true
+            });
+        });
+    </script>
+</body>
+
+</html>
